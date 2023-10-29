@@ -1,0 +1,28 @@
+{{define "main"}}
+<section class="blog mt-5 pt-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-9 mt-5 pt-5">
+        <ul>
+          <li><h2>Blog</h2></li>
+          <hr />
+        </ul>
+      </div>
+      <div class="col-md-9 mt-5">
+        <ul>
+          {{range .RegularPages}}
+          <li>
+            <a href="{{.Permalink}}">
+              <h2>{{.Title}}</h2>
+              <p>{{.Description}}</p>
+              <p><i class="bi bi-arrow-right"></i></p>
+            </a>
+          </li>
+          <hr />
+          {{end}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}

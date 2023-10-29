@@ -1,0 +1,37 @@
+{{define "main"}}
+
+<!-- ======= Team Section ======= -->
+<section id="team" class="team mt-5 pt-5">
+  <div class="container">
+    <div class="section-title">
+      <h2>{{.Title}}</h2>
+      <p>{{.Description}}</p>
+    </div>
+
+    <div class="row">
+      {{range .Params.out_team}}
+      <div class="col-xl-3 col-lg-4 col-md-6">
+        <div class="member">
+          <img src="{{.image}}" class="img-fluid" alt="" />
+          <div class="member-info">
+            <div class="member-info-content">
+              <h4>{{.name}}</h4>
+              <span>{{.title}}</span>
+              <div class="social">
+                {{range .links }}
+                <a href="{{.link}}" target="_blank"
+                  ><i class="{{.icon}}"></i
+                ></a>
+                {{end}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{end}}
+    </div>
+  </div>
+</section>
+<!-- End Team Section -->
+
+{{end}}
