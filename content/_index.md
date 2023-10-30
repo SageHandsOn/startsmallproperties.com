@@ -7,30 +7,13 @@ hero_slide:
     - image: /assets/img/slide/slide-1.jpg
       title: Grow Your Business
       class: active
-      content: Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et
-        est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
-        mollitia ut. Similique ea voluptatem. Esse doloremque accusamus
-        repellendus deleniti vel. Minus et tempore modi architecto.
-      button:
-        link: /blog
-        label: Read More
-
-    - image: /assets/img/slide/slide-2.jpg
-      title: Grow Your Business
-      content: Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et
-        est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
-        mollitia ut. Similique ea voluptatem. Esse doloremque accusamus
-        repellendus deleniti vel. Minus et tempore modi architecto.
       button:
         link: /blog
         label: Read More
 
     - image: /assets/img/slide/slide-3.jpg
       title: Grow Your Business
-      content: Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et
-        est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
-        mollitia ut. Similique ea voluptatem. Esse doloremque accusamus
-        repellendus deleniti vel. Minus et tempore modi architecto.
+      content:Welcome to startsmallproperties.co
       button:
         link: /blog
         label: Read More
